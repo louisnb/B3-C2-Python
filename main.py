@@ -1,3 +1,14 @@
+#lancer la console python
+# python
+# py
+# print("Hello, World")
+
+#if 5>2
+#    print("pourquoi")
+#Python s'indente
+
+
+#voici un commentaire python
 #"x = 5
 #y = "Salut"
 import importlib
@@ -5,6 +16,8 @@ import importlib
 #print(x)
 #print(y)
 
+
+#Le commentaire multiligne se fait avec """commentaire"""
 #x = 1
 #y = 3.5
 #z= 1j
@@ -17,9 +30,128 @@ import importlib
 #print(b)
 #print(c)
 
+#Afficher le type d'une variable
 #print(type(a))
 #print(type(b))
 #print(type(c))
+
+#Déclarer une chaine avec "" ou ''
+x = "Vincent"
+y = 'Artz'
+
+#Déclaration d'une variable
+
+#Camel case
+maVariableNom = "Vincent"
+
+#Pascal case
+MaVariableNom = "Vincent"
+
+#Snake case
+ma_variable_nom = "Vincent"
+
+#Assigner plusieurs valeurs
+x,y,z = "Fruits", "Légumes", "Lait"
+print(x)
+print(y)
+print(z)
+
+#Une collection de valeur dans une liste, tuple
+
+# fruits = ["Pomme","banane","cerise"]
+# x,y,z = fruits
+# print(x)
+# print(y)
+# print(z)
+#
+# x = "Python"
+# y = "Est"
+# z = "Top"
+# print(x,y,z)
+
+# x = "Python"
+# y = "Est"
+# z = "Top"
+# print(x+y+z)
+
+# x = 10
+# y = 20
+# print(x+y)
+
+# Variable globale
+# x = "genial"
+#
+# def mafonction():
+#         x = "Superbe"
+#         print("Python est "+x)
+#
+# mafonction()
+# print("Python est " +x)
+
+#TYPES DE DONNEES
+# str = chaine
+# numeric = int, float, complex
+# sequences = list, tuple, range
+# Mapping Type = dict
+# Set Types = set, frozenset
+# Booléens = bool
+# Binary = bytes, bytesarray, memoryview
+# None Type : NoneType
+
+# x = 5
+# print(type(x))
+#
+# list
+# x = ["fruits","légumes"]
+#
+# tuple
+# x = ("fruits","légumes")
+#
+# range
+# x=range(6)
+
+# dict
+# x={"noms":"Artz", "Age":40}
+
+# set
+# x = {"fruits","légumes"}
+#
+# booléen
+# x = True
+#
+# bytes
+# x=b"Salut"
+# x=bytearray(5)
+# x=memoryview(bytes(5))
+# x = None
+
+# Nombres
+# int, float, complex
+
+# x=1
+# y=4.5
+# z=1j
+#
+# print(type(z))
+#
+# x=1
+# y=3.5
+# z=1j
+#
+# a=float(x)
+# b=int(y)
+# c=complex(x)
+#
+# print(a)
+# print(b)
+# print(c)
+
+#afficher les types de a, b et c...
+# print(type(a))
+# print(type(b))
+# print(type(c))
+
+
 
 #import random
 #print(random.randrange(1,10))
@@ -27,6 +159,13 @@ import importlib
 # from math import factorial
 # factorial(5)
 # print(factorial(5))
+
+#String multiligne
+# a= """Exemple voilà
+# ddjuhdh,
+# djndhbhbhbd,
+# djjnhdfjnd."""
+# print(a)
 
 # a = "Hello, ça va"
 # print(a[1])
@@ -45,10 +184,34 @@ import importlib
 # print(x[2:5])
 
 # x= "Salut les amis"
+# print(x[-5:-2])
+
+# x= "Salut les amis"
 # print(x[:5])
+
+#Exercice 1
+
+# prenom = "Pierre"
+# age = 20
+# majeur = True
+# compte_en_banque = 20135,384
+# amis = ["Marie", "Julien", "Adrien"]
+# parents = ("Marc","Caroline")
+#
+# print(prenom)
+# print(age)
+# print(majeur)
+# print(compte_en_banque)
+# print(amis)
+# print(parents)
 
 # nombre = 15
 # print("Le nombre est" + str(nombre))
+
+#Exercice
+#Ajouter un séparateur dans la fonction print,
+#printer les 3 variables a, b et c, séparées par un symbole d'addition (+)
+#votre script doit donc afficher 2 + 6 + 3
 
 # a = 2
 # b = 6
@@ -56,10 +219,25 @@ import importlib
 #
 # print(a, b, c, sep=" + ")
 
+#Exercice
+#Vous devez modifier le code dans la console afin de ne plus avoir d'erreurs lors de
+#l'éxécution du script
+
 # list1 = range(3)
 # list2 = range(5)
 #
 # print(list(list2))
+
+#Exercice
+#
+# prenom = "Pierre"
+# if type(prenom) == str
+#     print("La variable est une chaine")
+#
+# prenom = 0
+#
+# if isinstance(prenom, int):
+#     print("La variable est un entier")
 
 # a = "Hello"
 # print(a.upper())
@@ -372,33 +550,33 @@ import importlib
 #     x = x + 1
 #
 #Joindre des tuples et les multiplier
-montuple1 = ("Pomme", "Kiwi", "Citron")
-montuple2 = (4, 12, 6)
-montuple3 = montuple1 + montuple2
-print(montuple3)
-montuple4 = montuple1 * 2
-print(montuple4)
+# montuple1 = ("Pomme", "Kiwi", "Citron")
+# montuple2 = (4, 12, 6)
+# montuple3 = montuple1 + montuple2
+# print(montuple3)
+# montuple4 = montuple1 * 2
+# print(montuple4)
 
 #Exercice
 #Construire un code qui affiche une liste des nombres pairs de 1 à 100
-liste_nombres_pairs = range(2, 101, 2)
-print(list(liste_nombres_pairs))
+# liste_nombres_pairs = range(2, 101, 2)
+# print(list(liste_nombres_pairs))
 
 #Exercice
 #Construire un code qui affiche le lancé de 6 dés aléatoires
 #6 valeurs possible, de 1 à 6
-import random
-for _ in range(6):
-    nombre = random.choice(range(1, 7))
-    print(nombre)
+# import random
+# for _ in range(6):
+#     nombre = random.choice(range(1, 7))
+#     print(nombre)
 
 #Exercice
 #Compter le nombre d'occurence d'une lettre
 
 #Extension basique
-lettre = "a"
-phrase = "Salut ça va?"
-print(phrase.lower().count(lettre))
+# lettre = "a"
+# phrase = "Salut ça va?"
+# print(phrase.lower().count(lettre))
 
 #Extension: Compter le nombre d'occurence de chaque lettre puis afficher la fréquence de chaque lettre de la phrase
 
@@ -409,13 +587,13 @@ print(phrase.lower().count(lettre))
 
 #importation comme un objet
 #import importlib
-file = importlib.import_module("Code")
-obj = file.Codeclass()
-obj.show()
+# file = importlib.import_module("Code")
+# obj = file.Codeclass()
+# obj.show()
 
 #importation par from
-from Code import CodeClass
-var1 = CodeClass()
-var1.show()
+# from Code import CodeClass
+# var1 = CodeClass()
+# var1.show()
 
 
